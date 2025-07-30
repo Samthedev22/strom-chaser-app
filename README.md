@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🌪️ Storm Chase App
 
 A mobile application built for **storm-chasing hobbyist meteorologists**, allowing users to track severe weather conditions, log storm sightings, and view real-time weather data via geolocation.
@@ -44,3 +45,6 @@ A mobile application built for **storm-chasing hobbyist meteorologists**, allowi
 git clone https://github.com/samthedev22/storm-chase-app.git
 cd storm-chase-app
 npm install
+=======
+# strom-chaser-app
+>>>>>>> b6638e0b0f82562420da86151a142d03dd0e7240
