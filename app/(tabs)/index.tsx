@@ -1,17 +1,18 @@
 import { View, Text, StyleSheet } from 'react-native';
 import React from 'react';
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
+import WeekForecast from '../components/Home/weekforecast';
+import UserLocation from '../components/Home/userLocation';
 
 export default function index() {
   return (
     <SafeAreaProvider>
       <SafeAreaView style={styles.safeContainer}>
         <View style={styles.container}>
-          <Text className='text-center self-center'>Storm Chaser App</Text>
-          <Text style={{alignSelf: "center", fontSize: 25}}>Storm Chaser App</Text>
+          {/* Photocard import */}
+          <UserLocation />
+          <WeekForecast />
         </View>
-
-
       </SafeAreaView>
     </SafeAreaProvider>
   )

@@ -6,7 +6,7 @@ import Entypo from '@expo/vector-icons/Entypo';
 export default function TabLayout() {
     return (
     <Tabs screenOptions={{ 
-        tabBarActiveTintColor: 'green',
+        tabBarActiveTintColor: '#333666',
         tabBarLabelStyle: { color: 'gray'}
     }}>
 
